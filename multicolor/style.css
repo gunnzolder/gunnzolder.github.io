@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: "multicolor";
+    src: url('multicolor.eot');
+    src: url('multicolor.eot?#iefix') format('eot'),
+    url('multicolor.woff') format('woff'),
+    url('multicolor.ttf') format('truetype'),
+    url('multicolor.svg#jbr-system') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.icon-multicolor__layer:before {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "multicolor";
+    position: absolute;
+    font-size: 200px;
+}
+
+.icon-multicolor__layer--multi0:before{ content: "\ea01";}
+.icon-multicolor__layer--multi1:before{ content: "\ea02";}
+.icon-multicolor__layer--multi2:before{ content: "\ea03";}
+.icon-multicolor__layer--multi3:before{ content: "\ea04";}
+.icon-multicolor__layer--multi4:before{ content: "\ea05";}
+.icon-multicolor__layer--multi5:before{ content: "\ea06";}
+
+.icon-multicolor__layer:nth-child(1):before {color:#61bb46}
+.icon-multicolor__layer:nth-child(2):before {color:#fdb827}
+.icon-multicolor__layer:nth-child(3):before {color:#f5821f}
+.icon-multicolor__layer:nth-child(4):before {color:#e03a3e}
+.icon-multicolor__layer:nth-child(5):before {color:#963d97}
+.icon-multicolor__layer:nth-child(6):before {color:#009ddc}
