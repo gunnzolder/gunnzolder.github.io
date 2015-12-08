@@ -48,8 +48,7 @@ ProjectName\
 *Prerequisites: installed TortoiseGit client [https://tortoisegit.org/download/](https://tortoisegit.org/download/)*
 
 #### There are 2 basic actions needed for normal process: pull and (stage->commit->)push. [Pull](#pull) is used to get changes from the repository, [Push](#push) is used to send changes.
-[Pull](#pull)
-[Push](#push)
+
  Technically, adding files to the repository includes 3 steps: stage, commit and push:
  1. *Staging* is when you check what changes to include into commit;
  2. *Committing* is like wrapping the changes in a 'bundle' with number and description, which is stored locally
