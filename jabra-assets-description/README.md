@@ -1,7 +1,7 @@
 # Jabra assets
 
 This is a repository for storing the assets used by Jabra Online IT team. 
-[Instructions](#how-to-use)
+[Instructions](#2-how-to-use)
 
 ### 1. File Structure:
 
@@ -43,8 +43,7 @@ ProjectName\
 ```
 
 -----------------------
-### 2. How to use: 
-[id]:how-to-use
+### 2. How to use:
 
 *Prerequisites: installed TortoiseGit client [https://tortoisegit.org/download/](https://tortoisegit.org/download/)*
 
