@@ -62,15 +62,12 @@ ProjectName\
 [id]:pull
 
 1. Right click anywhere on empty space in the File Explorer window in the repository root folder, select Git Pull. (needs to be added to context menu in Settings, otherwise use TortoiseGit->Push)
-
 ![pull00](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/pull-00-context-menu.png?raw)
 
 2. OK to pull.
-
 ![pull01](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/pull-01-pull.png?raw)
 
 3. Close, successfully pulled.
-
 ![pull02](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/pull-02-success.png?raw)
 
 -----------------------
