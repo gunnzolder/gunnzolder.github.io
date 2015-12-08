@@ -1,6 +1,7 @@
 # Jabra assets
 
-This is a repository for storing the assets used by Jabra Online IT team. [Instructions][howtouse]
+This is a repository for storing the assets used by Jabra Online IT team. 
+[Instructions](#howtouse)
 
 ### 1. File Structure:
 
@@ -42,13 +43,14 @@ ProjectName\
 ```
 
 -----------------------
-### 2. How to use: [id]:howtouse
+### 2. How to use: 
+[id]:howtouse
 
 *Prerequisites: installed TortoiseGit client [https://tortoisegit.org/download/](https://tortoisegit.org/download/)*
 
-#### There are 2 basic actions needed for normal process: pull and (stage->commit->)push. [Pull][pull] is used to get changes from the repository, [Push][push] is used to send changes.
-[Pull][pull]
-[Push][push]
+#### There are 2 basic actions needed for normal process: pull and (stage->commit->)push. [Pull](#pull) is used to get changes from the repository, [Push](#push) is used to send changes.
+[Pull](#pull)
+[Push](#push)
  Technically, adding files to the repository includes 3 steps: stage, commit and push:
  1. *Staging* is when you check what changes to include into commit;
  2. *Committing* is like wrapping the changes in a 'bundle' with number and description, which is stored locally
@@ -72,7 +74,8 @@ ProjectName\
 
 -----------------------
 
-### PUSH [id]:push
+### PUSH 
+[id]:push
 
 1. Right click anywhere on empty space in the File Explorer window in the repository root folder, select Commit -> Master.
 ![commit00](http://gunnzolder.github.io/jabra-assets-description/.images/commit-00-context-menu.png?raw)
