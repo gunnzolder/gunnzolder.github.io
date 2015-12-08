@@ -61,13 +61,13 @@ ProjectName\
 ### PULL 
 [id]:pull
 
-1. Right click anywhere on empty space in the File Explorer window in the repository root folder, select Git Pull. (needs to be added to context menu in Settings, otherwise use TortoiseGit->Push).
+1. Right click anywhere on empty space in the File Explorer window in the repository root folder, select Git Pull. (needs to be added to context menu in Settings, otherwise use TortoiseGit->Push).<br/>
 ![pull00](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/pull-00-context-menu.png?raw)<br/>
 
-2. OK to pull.
+2. OK to pull.<br/>
 ![pull01](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/pull-01-pull.png?raw)<br/>
 
-3. Close, successfully pulled.
+3. Close, successfully pulled.<br/>
 ![pull02](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/pull-02-success.png?raw)<br/>
 
 -----------------------
@@ -75,18 +75,18 @@ ProjectName\
 ### PUSH 
 [id]:push
 
-1. Right click anywhere on empty space in the File Explorer window in the repository root folder, select Commit -> Master.
-![commit00](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/commit-00-context-menu.png?raw)
+1. Right click anywhere on empty space in the File Explorer window in the repository root folder, select Commit -> Master.<br/>
+![commit00](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/commit-00-context-menu.png?raw)<br/>
 
-2. Write a comment, select files to be added to commit (usually all, by clicking 'All'). Then click OK to submit.
-![commit01](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/commit-01-stage.png?raw)
+2. Write a comment, select files to be added to commit (usually all, by clicking 'All'). Then click OK to submit.<br/>
+![commit01](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/commit-01-stage.png?raw)<br/>
 
-3. Push. Commit is done, push it to the server.
-![commit02](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/commit-02-commit.png?raw)
+3. Push. Commit is done, push it to the server.<br/>
+![commit02](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/commit-02-commit.png?raw)<br/>
 
-4. OK to push.
-![commit03](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/commit-03-push.png?raw)
+4. OK to push.<br/>
+![commit03](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/commit-03-push.png?raw)<br/>
 
-5. Close, successfully pushed.
+5. Close, successfully pushed.<br/>
 ![commit04](https://raw.githubusercontent.com/gunnzolder/gunnzolder.github.io/master/jabra-assets-description/.images/commit-04-success.png?raw)
 
