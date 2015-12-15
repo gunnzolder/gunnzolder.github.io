@@ -176,13 +176,13 @@
 
                 <section class="order-form__section clearfix">
                     <h2 class="order-form__section__heading">Select Side:</h2>
+
                     <section class="order-form__input-block order-form__input-block--side">
-                        <input type="radio" name="side" value="left" class="order-form__input" id="order-form__side--leftear"/>
-                        <label for="order-form__side--leftear" class="order-form__side__label">
+                        <input type="radio" name="side" value="right" class="order-form__input" id="order-form__side--rightear" />
+                        <label for="order-form__side--rightear" class="order-form__side__label">
                             <svg class="order-form__input-block__svg">
-                                <use class="ear--left" xlink:href="images/ear.svg#left"></use>
-                            </svg>
-                            Left
+                                <use class="ear--right" xlink:href="images/ear.svg#right"></use></svg>
+                            Right
                         </label>
                     </section>
 
@@ -196,21 +196,23 @@
                             Binaural
                         </label>
                     </section>
+
                     <section class="order-form__input-block order-form__input-block--side">
-                        <input type="radio" name="side" value="right" class="order-form__input" id="order-form__side--rightear" />
-                        <label for="order-form__side--rightear" class="order-form__side__label">
+                        <input type="radio" name="side" value="left" class="order-form__input" id="order-form__side--leftear"/>
+                        <label for="order-form__side--leftear" class="order-form__side__label">
                             <svg class="order-form__input-block__svg">
-                                <use class="ear--right" xlink:href="images/ear.svg#right"></use></svg>
-                            Right
+                                <use class="ear--left" xlink:href="images/ear.svg#left"></use>
+                            </svg>
+                            Left
                         </label>
                     </section>
                 </section>
 
                 <section class="order-form__section clearfix" id="order-form__section--details">
                     <h2 class="order-form__section__heading">Details:</h2>
-                    <div class="order-form__control-group clearfix order-form__control-group--left">
+                    <div class="order-form__control-group clearfix order-form__control-group--right ">
 
-                        <h3 class="order-form__control-group__header order-form__control-group__header--left">Left</h3>
+                        <h3 class="order-form__control-group__header order-form__control-group__header--right ">Right </h3>
 
                         <section class="order-form__input-block">
                             <label for="coupling-left" class="order-form__label"> Coupling</label>
@@ -236,10 +238,10 @@
                         </section>
                     </div>
 
-                    <div class="order-form__control-group clearfix order-form__control-group--right order-form__control-group--disabled">
-                        <h3 class="order-form__control-group__header order-form__control-group__header--right">Right</h3>
+                    <div class="order-form__control-group clearfix order-form__control-group--left order-form__control-group--disabled">
+                        <h3 class="order-form__control-group__header order-form__control-group__header--left ">Left </h3>
                         <div class="order-form__control-group__copy-values">
-                            <label class="order-form__label"><input checked type="checkbox"/> Same as left</label>
+                            <label class="order-form__label"><input checked type="checkbox"/> Same as right</label>
                         </div>
                         <section class="order-form__input-block">
                             <label for="coupling-right" class="order-form__label"> Coupling</label>
@@ -270,9 +272,9 @@
                 <section class="order-form__section clearfix">
                     <h2 class="order-form__section__heading">Color:</h2>
 
-                    <div class="order-form__control-group clearfix order-form__control-group--left">
+                    <div class="order-form__control-group clearfix order-form__control-group--right ">
 
-                        <h3 class="order-form__control-group__header order-form__control-group__header--left">Left</h3>
+                        <h3 class="order-form__control-group__header order-form__control-group__header--right ">Right </h3>
                         <section class="order-form__input-block order-form__color">
 
                             <input checked type="radio" name="color-left" id="color-01-left" value="white" class="order-form__input order-form__color__input" />
@@ -325,10 +327,10 @@
 
                     </div>
 
-                    <div class="order-form__control-group clearfix order-form__control-group--right order-form__control-group--disabled">
-                        <h3 class="order-form__control-group__header order-form__control-group__header--right">Right</h3>
+                    <div class="order-form__control-group clearfix order-form__control-group--left order-form__control-group--disabled">
+                        <h3 class="order-form__control-group__header order-form__control-group__header--left ">Left </h3>
                         <div class="order-form__control-group__copy-values">
-                            <label class="order-form__label"><input checked type="checkbox"/> Same as left</label>
+                            <label class="order-form__label"><input checked type="checkbox"/> Same as right</label>
                         </div>
                         <section class="order-form__input-block order-form__color">
 
@@ -387,9 +389,9 @@
 
                 <section class="order-form__section clearfix" id="order-form__section--audiogram">
                     <h2 class="order-form__section__heading">Audiogram:</h2>
-                    <div class="order-form__control-group clearfix order-form__control-group--left">
+                    <div class="order-form__control-group clearfix order-form__control-group--right ">
 
-                        <h3 class="order-form__control-group__header order-form__control-group__header--left">Left</h3>
+                        <h3 class="order-form__control-group__header order-form__control-group__header--right ">Right </h3>
                         <svg class="order-form__section--audiogram__svg" viewBox="0 0 400 300">
                             <use class="audiogram-grid" xlink:href="images/graph.svg#grid"></use>
                             <use class="ear--left" xlink:href="images/graph.svg#graph2"></use>
@@ -397,10 +399,10 @@
 
                     </div>
 
-                    <div class="order-form__control-group clearfix order-form__control-group--right order-form__control-group--disabled">
-                        <h3 class="order-form__control-group__header order-form__control-group__header--right">Right</h3>
+                    <div class="order-form__control-group clearfix order-form__control-group--left order-form__control-group--disabled">
+                        <h3 class="order-form__control-group__header order-form__control-group__header--left ">Left </h3>
                         <div class="order-form__control-group__copy-values">
-                            <label class="order-form__label"><input checked type="checkbox"/> Same as left</label>
+                            <label class="order-form__label"><input checked type="checkbox"/> Same as right</label>
                         </div>
 
                         <svg class="order-form__section--audiogram__svg" viewBox="0 0 400 300">
