@@ -156,12 +156,6 @@
     "shellType": "ITC"
   },
   {
-    "configName": "ITE Configuration",
-    "family": "Verso",
-    "techLevel": "Top",
-    "shellType": "ITE"
-  },
-  {
     "configName": "IIC Configuration",
     "family": "Verso",
     "techLevel": "Budget",
@@ -184,12 +178,6 @@
     "family": "Verso",
     "techLevel": "Budget",
     "shellType": "ITC"
-  },
-  {
-    "configName": "ITE Configuration",
-    "family": "Verso",
-    "techLevel": "Budget",
-    "shellType": "ITE"
   },
   {
     "configName": "IIC Configuration",
