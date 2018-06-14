@@ -10,7 +10,12 @@
     /* Here we need to add some ifs, to check if the browser/device supports Screen Orientation API
     *  See https://caniuse.com/#feat=screen-orientation
     * */
-    screen.orientation.lock('portrait-primary');
+    var orientation = 'portrait-primary';
+    if (screen.orientation.lock(orientation)) {
+        alert('orientation locked to "' + orientation + '"');
+    } else {
+        alert ('your device and/or browser does not support orientation lock');
+    }
 </script>
 <style>
     div {
