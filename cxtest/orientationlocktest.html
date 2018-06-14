@@ -10,9 +10,7 @@
     /* Here we need to add some ifs, to check if the browser/device supports Screen Orientation API
     *  See https://caniuse.com/#feat=screen-orientation
     * */
-    var orientation = 'portrait-primary';
-
-    screen.orientation.lock(orientation).catch(function(error) {
+    screen.orientation.lock('portrait-primary').catch(function(error) {
         alert ('your device and/or browser does not support orientation lock: '+ error);
     });
 
