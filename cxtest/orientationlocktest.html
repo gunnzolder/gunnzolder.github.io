@@ -6,6 +6,12 @@
     <title>Orientation Lock Test</title>
 </head>
 <body>
+<script>
+    /* Here we need to add some ifs, to check if the browser/device supports Screen Orientation API
+    *  See https://caniuse.com/#feat=screen-orientation
+    * */
+    screen.orientation.lock('portrait-primary');
+</script>
 <style>
     div {
         border: 20px solid wheat;
