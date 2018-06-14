@@ -11,11 +11,11 @@
     *  See https://caniuse.com/#feat=screen-orientation
     * */
     var orientation = 'portrait-primary';
-    if (screen.orientation.lock(orientation)) {
-        alert('orientation locked to "' + orientation + '"');
-    } else {
-        alert ('your device and/or browser does not support orientation lock');
-    }
+
+    screen.orientation.lock(orientation).catch(function(error) {
+        alert ('your device and/or browser does not support orientation lock: '+ error);
+    });
+
 </script>
 <style>
     div {
